@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -x
+
 # confirm environment variables
 if [ ! -n "$WERCKER_GH_PAGES_TOKEN" ]
 then
